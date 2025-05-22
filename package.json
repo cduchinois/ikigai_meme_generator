@@ -1,0 +1,17 @@
+{
+  "name": "ikigai-finder",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node src/test/testFlow.ts",
+    "start": "node src/ikigai_meme.ts"
+  },
+  "dependencies": {
+    "@fal-ai/serverless-client": "^0.8.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
